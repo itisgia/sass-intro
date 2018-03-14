@@ -1,0 +1,8 @@
+$primaryColour: #3498db;
+$width : 100px;
+
+@mixin boxSize{
+    width: $width;
+    height: 100px;
+    // float: left;
+}

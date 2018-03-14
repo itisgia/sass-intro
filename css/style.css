@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after "@for $": expected identifier, was "1from i through..."
+        on line 83 of /Users/845872625/Documents/jiah/sass/sass/style.scss
+
+78: }
+79: 
+80: 
+81: 
+82: $boxCount : 3;
+83: @for $1from i through $boxCount{
+84: 	#box#($i){
+85: 		width: $width * $i
+86: 	}
+87: }
+88: 
+
+Backtrace:
+/Users/845872625/Documents/jiah/sass/sass/style.scss:83
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:289:in `for_directive'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Users/845872625/Desktop/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@for $\": expected identifier, was \"1from i through...\"\A         on line 83 of /Users/845872625/Documents/jiah/sass/sass/style.scss\A \A 78: }\A 79: \A 80: \A 81: \A 82: $boxCount : 3;\A 83: @for $1from i through $boxCount{\A 84: 	#box#($i){\A 85: 		width: $width * $i\A 86: 	}\A 87: }\A 88: "; }

@@ -1,0 +1,68 @@
+@import "base_folder/variables";
+@import "base_folder/base";
+@import "base_folder/header";
+
+#box1{
+	@include boxSize;
+	background-color: red;
+	
+}
+
+#box2{
+	@include boxSize;
+	background-color: #799ad1;
+
+}
+
+#box3 {
+	@include boxSize;
+	background-color: white;
+}
+
+main::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+
+footer {
+	background-color: lighten($primaryColour, 10%);
+	nav{
+		ul{
+			list-style: none;
+			text-align: center;
+			li{
+				display: inline-block;
+				color: white;
+				padding: 2em;
+
+			}
+		}
+	}
+}
+
+
+h1 {
+	color: complement($primaryColour)
+}
+
+
+
+$boxCount : 4;
+@for $1from i through $boxCount{
+	#box#($i){
+		width: $width * $i
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//end
